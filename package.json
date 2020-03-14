@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@drieam/api": "6.1.1-next.15",
+    "@drieam/common": "6.1.1-next.15",
+    "@drieam/ui": "6.1.1-next.15",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,11 +14,18 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/redux-logger": "^3.0.7",
+    "antd": "^4.0.2",
     "casual": "^1.6.2",
+    "i18n-react": "^0.7.0",
     "moment-timezone": "^0.5.28",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
     "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -23,7 +33,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api": "json-server --watch ./mocks/db.js --routes ./mocks/routes.json --middlewares ./mocks/middleware.js --port 3004"
+    "api": "json-server --watch ./mocks/db.js --routes ./mocks/routes.json --middlewares ./mocks/middleware.js --port 3004",
+    "linked": "find node_modules -type l | grep -v .bin"
   },
   "eslintConfig": {
     "extends": "react-app"
