@@ -8,7 +8,7 @@ export type API = {
 
 export const apiRoutes: ApiRoutes<API> = {
   users: {
-    path: '/users/:id?',
+    path: '/api/v1/users/:id?',
     mapper: User,
     list: true,
   },

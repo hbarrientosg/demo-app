@@ -12,7 +12,7 @@ export const useActions = function useActions() {
   const props = useSelector(getAppProps);
   
   if (process.env.NODE_ENV === 'development') {
-    console.warn(props);
+    console.warn(`app:`, props);
   }
 
 
