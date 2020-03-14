@@ -986,17 +986,14 @@
     redux-form "^8.1.0"
     snakecase-keys "^3.1.2"
 
-"@drieam/common@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.1.1-next.15.tgz#4f131f7e0af427d9d88e14d9f5b1a912760fb611"
-  integrity sha512-OivQRVZ0JDxYDs1DU/1lLA7kOQwbyY+dGMr3V76OdOqHxdE0+aficdK7SKjowrJgcqDTKDM1McZsaDiDIz16Hw==
+"@drieam/common@6.1.3":
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.1.3.tgz#ad1999781f3bd2ae49f9235d8fc83a27e7c97bb9"
+  integrity sha512-o4Xf+8/EplrkCN+HR4m1Kw/CPLs+zlbWMun3fhMocIkEo+w3AHhbgzJ9iQc9xzx1jqElxBGEJUvn+m1jTW7OgQ==
   dependencies:
-    "@types/classnames" "^2.2.9"
-    "@types/store" "^2.0.2"
-    classnames "2.2.6"
     react-infinite-scroller "^1.2.4"
+    redux-logger "^3.0.6"
     resize-observer-polyfill "~1.5.1"
-    store "^2.0.12"
 
 "@drieam/ui@6.1.1-next.15":
   version "6.1.1-next.15"
@@ -1405,11 +1402,6 @@
   resolved "https://registry.yarnpkg.com/@types/camelcase-keys-deep/-/camelcase-keys-deep-0.1.0.tgz#2ee97b18c4a98524114c5d1e593051cd19adfc7b"
   integrity sha512-Bn4jUinRHBKSj31/a/FA7eqWi1qc47orOaiGp+YWTxk1AhT1jGrQGv/giR6bjB5dTxeZ+zw4PWjyDZjdI+Usrg==
 
-"@types/classnames@^2.2.9":
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
-  integrity sha512-1UzDldn9GfYYEsWWnn/P4wkTlkZDH7lDb0wBMGbtIQc9zXEQq7FlKBdZUn6OBqD8sKZZ2RQO2mAjGpXiDGoRmQ==
-
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -1606,11 +1598,6 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
-
-"@types/store@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@types/store/-/store-2.0.2.tgz#6263d4f1aab225032ea55b17d94f3b725a21c943"
-  integrity sha512-ZPHnXkzmGMfk+pHqAGzTSpA9CbsHmJLgkvOl5w52LZ0XTxB1ZIHWZzQ7lEtjTNWScBbsQekg8TjApMXkMe4nkw==
 
 "@types/testing-library__dom@*", "@types/testing-library__dom@^6.12.1":
   version "6.12.1"
@@ -3009,7 +2996,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.6, classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@~2.2.6:
+classnames@2.x, classnames@^2.2.0, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@~2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -10551,11 +10538,6 @@ stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
-
-store@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/store/-/store-2.0.12.tgz#8c534e2a0b831f72b75fc5f1119857c44ef5d593"
-  integrity sha1-jFNOKguDH3K3X8XxEZhXxE711ZM=
 
 stream-browserify@^2.0.1:
   version "2.0.2"
