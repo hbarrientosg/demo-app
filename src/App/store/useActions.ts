@@ -19,7 +19,7 @@ export const useActions = function useActions() {
   return {
     fetchUsers(filters = {}): AsyncResponse {
       return dispatch(
-        base.users.getRequest(filters)
+        base.users.fetchList(filters)
       );
     }
   };
