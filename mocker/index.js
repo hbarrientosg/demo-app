@@ -1,5 +1,6 @@
 const casual = require("casual");
 const moment = require("moment-timezone");
+const delay = require('mocker-api/utils/delay');
 const { array_of, paginate } = require("./utils");
 
 casual.define("user", () => () => ({
@@ -104,4 +105,4 @@ const proxy = {
   }
 };
 
-module.exports = proxy;
+module.exports = delay(proxy, 500);
