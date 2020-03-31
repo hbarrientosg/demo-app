@@ -970,10 +970,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@drieam/api@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/api/-/api-6.1.1-next.15.tgz#785130b940a1bf894b7edb7669030f268ee00cb1"
-  integrity sha512-zWtWbT4UfsQpuulZwlbspVksnZL/i52KamgQ8XMjf0NUkRHP7nqe+lUONDLldK5tDCC1T7ClPGdGxnTUn+jcJw==
+"@drieam/api@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@drieam/api/-/api-6.2.0.tgz#d799acdf43cda485964ed70a94897e43f8e13504"
+  integrity sha512-xWtF58u8+mBwMDOZOYq4Yg91NU3IuiYaWx6sIBCWW79Pw1ShY8MsaDpGgFqUT2VWrvVkvXt1qyQC0DTPUhTBPg==
   dependencies:
     "@types/camelcase-keys-deep" "0.1.0"
     "@types/dot-object" "^1.7.0"
