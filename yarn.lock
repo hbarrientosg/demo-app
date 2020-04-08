@@ -986,10 +986,10 @@
     redux-form "^8.1.0"
     snakecase-keys "^3.1.2"
 
-"@drieam/common@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.1.1-next.15.tgz#4f131f7e0af427d9d88e14d9f5b1a912760fb611"
-  integrity sha512-OivQRVZ0JDxYDs1DU/1lLA7kOQwbyY+dGMr3V76OdOqHxdE0+aficdK7SKjowrJgcqDTKDM1McZsaDiDIz16Hw==
+"@drieam/common@6.2.4":
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.2.4.tgz#a4aac21b4027de34e1022227a92880fdaaf5ce90"
+  integrity sha512-boJFJC6ClY2wyNg3YouTOTNqDNUSCu5p+0Dfh59AV+vM7tYhL6Cb23a06aUkAcxsVgVDVhBWQBMKD09AWna1NA==
   dependencies:
     "@types/classnames" "^2.2.9"
     "@types/store" "^2.0.2"
