@@ -998,10 +998,10 @@
     resize-observer-polyfill "~1.5.1"
     store "^2.0.12"
 
-"@drieam/ui@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.1.1-next.15.tgz#1311977469a5fcec5981ca70209fc454f15422e0"
-  integrity sha512-DCKEreNl5Kp7r/QpROrJKxAVx2CswAtfE5oEU5oLMGZ0OnpEEInXDv+Cz7N2p/oxi9op86rzgvA+C9aiXRnPAg==
+"@drieam/ui@6.5.0":
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.5.0.tgz#963b421aae47044f6931c3bd0e40d73f6c5a1b1b"
+  integrity sha512-HIvYACqvzB2slljBBqSlmPh85zTKyEv6Fja+uxBaNHVPyZEnZR+6y1BkdUCyq5JIA+D8dQ2bBYhfRagaSXWtXg==
   dependencies:
     "@ant-design/icons" "~2.1.1"
     react-icons "^3.7.0"
