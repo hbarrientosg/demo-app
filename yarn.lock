@@ -25,11 +25,6 @@
     insert-css "^2.0.0"
     rc-util "^4.9.0"
 
-"@ant-design/icons@~2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
-  integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
-
 "@ant-design/react-slick@~0.25.5":
   version "0.25.5"
   resolved "https://registry.yarnpkg.com/@ant-design/react-slick/-/react-slick-0.25.5.tgz#18f40abaa22c15dc26da9c473d24da38d4d8f334"
@@ -998,13 +993,18 @@
     resize-observer-polyfill "~1.5.1"
     store "^2.0.12"
 
-"@drieam/ui@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.1.1-next.15.tgz#1311977469a5fcec5981ca70209fc454f15422e0"
-  integrity sha512-DCKEreNl5Kp7r/QpROrJKxAVx2CswAtfE5oEU5oLMGZ0OnpEEInXDv+Cz7N2p/oxi9op86rzgvA+C9aiXRnPAg==
+"@drieam/ui@6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.8.0.tgz#ad166d98c0bbbfb05dd6bbc33e3757a6155c84b4"
+  integrity sha512-X5Mw3V3DWHS3VGZ67R6GZL0tE06mwGbELb19VZgP9nNX+r+ruvGpfjO9ZMc+Y5xCFBNPLPliDQu4TnBSB5NH2w==
   dependencies:
-    "@ant-design/icons" "~2.1.1"
+    "@types/classnames" "^2.2.9"
+    "@types/store" "^2.0.2"
+    classnames "2.2.6"
     react-icons "^3.7.0"
+    react-infinite-scroller "^1.2.4"
+    resize-observer-polyfill "~1.5.1"
+    store "^2.0.12"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
