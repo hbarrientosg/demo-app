@@ -5,7 +5,7 @@
   "dependencies": {
     "@drieam/api": "6.1.1-next.15",
     "@drieam/common": "6.1.1-next.15",
-    "@drieam/ui": "6.1.1-next.15",
+    "@drieam/ui": "6.8.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
