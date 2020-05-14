@@ -24,3 +24,9 @@ jobs:
 
       - name: Run Jest
         run: echo 'yarn build'
+
+      - name: Set and release staging version
+        if: contains(github.ref, '/release')
+        run: |
+          cat package.json | grep '"version"'
+          echo 'yarn publish:staging'
