@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bundle-analyzer/webpack-plugin": "^0.5.1",
     "@drieam/api": "6.1.1-next.15",
     "@drieam/common": "6.1.1-next.15",
     "@drieam/ui": "6.1.1-next.15",
@@ -27,8 +28,7 @@
     "react-scripts": "3.4.0",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
-    "typescript": "~3.8.3",
-    "@bundle-analyzer/webpack-plugin": "^0.5.1"
+    "typescript": "~3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -52,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@geut/chan": "^2.2.1"
   }
 }
