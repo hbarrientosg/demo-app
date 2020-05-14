@@ -1,0 +1,26 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2    
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+          
+      # Install dependencies
+
+      - name: Install NPM dependencies
+        run: |
+          echo 'yarn install --frozen-lockfile'
+
+      - name: Execute eslint
+        run: echo 'yarn eslint'
+  
+      - name: Execute eslint
+        run: echo 'yarn build'
+
+      - name: Run Jest
+        run: echo 'yarn build'
