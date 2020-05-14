@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@bundle-analyzer/webpack-plugin": "^0.5.1",
-    "@drieam/api": "6.1.1-next.15",
+    "@drieam/api": "6.9.0",
     "@drieam/common": "6.1.1-next.15",
     "@drieam/ui": "6.1.1-next.15",
     "@testing-library/jest-dom": "^4.2.4",
