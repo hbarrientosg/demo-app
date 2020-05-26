@@ -986,13 +986,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@drieam/api@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/api/-/api-6.1.1-next.15.tgz#785130b940a1bf894b7edb7669030f268ee00cb1"
-  integrity sha512-zWtWbT4UfsQpuulZwlbspVksnZL/i52KamgQ8XMjf0NUkRHP7nqe+lUONDLldK5tDCC1T7ClPGdGxnTUn+jcJw==
+"@drieam/api@6.10.1":
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/@drieam/api/-/api-6.10.1.tgz#a19702250d4a24d63396cee01adc79b71e7164f5"
+  integrity sha512-bxxuYsxuEdlMOVUbbN16GFst88dtolPqDAbYYHJQxTHlVovoWXFI6Tcrv9E+mTXm+UAjqT+B9NeVPC1Qqtredw==
   dependencies:
     "@types/camelcase-keys-deep" "0.1.0"
-    "@types/dot-object" "^1.7.0"
+    "@types/dot-object" "^2.1.1"
     "@types/parse-link-header" "^1.0.0"
     camelcase-keys-deep "^0.1.0"
     cross-fetch "^3.0.4"
@@ -1000,7 +1000,7 @@
     parse-link-header "^1.0.1"
     path-to-regexp "^6.1.0"
     redux-form "^8.1.0"
-    snakecase-keys "^3.1.2"
+    snakecase-keys "^3.2.0"
 
 "@drieam/common@6.1.1-next.15":
   version "6.1.1-next.15"
@@ -1615,10 +1615,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/dot-object@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@types/dot-object/-/dot-object-1.7.0.tgz#a84e2676ca32870ff015580367e708d02ef253e6"
-  integrity sha512-8SV+eBD1/yBPSkc/3/egKQ+Th6EsOrNd6aiyzXUoJCrSHn7Sx/cNGNQohtx1V1VQaP/R/bBUl1XhH9ymRcEnqw==
+"@types/dot-object@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@types/dot-object/-/dot-object-2.1.1.tgz#b88d40c39f2f36d4db89d169d8235e91fc469ab5"
+  integrity sha512-GCQFfk9TYEUVgHZguc+4GKBiF6krlEXBAZPtPtCnmg2Fk0BNf09t4uWcoIRM6jgJgQT4QYZzLStpS26+Cit1hw==
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
@@ -10950,10 +10950,10 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-snakecase-keys@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/snakecase-keys/-/snakecase-keys-3.1.2.tgz#afb05f2c5b63e84a4e3d6c8c117c99a0026a839c"
-  integrity sha512-NrzHj8ctStnd1LYx3+L4buS7yildFum7WAbQQxkhPCNi3Qeqv7hoBne2c9n++HWxDG9Nv23pNEyyLCITZTv24Q==
+snakecase-keys@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/snakecase-keys/-/snakecase-keys-3.2.0.tgz#3ac428d643c6634eca461192fc7f731378fa7bd1"
+  integrity sha512-WTJ0NhCH/37J+PU3fuz0x5b6TvtWQChTcKPOndWoUy0pteKOe0hrHMzSRsJOWSIP48EQkzUEsgQPmrG3W8pFNQ==
   dependencies:
     map-obj "^4.0.0"
     to-snake-case "^1.0.0"
