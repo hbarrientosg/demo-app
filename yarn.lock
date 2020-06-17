@@ -1002,10 +1002,10 @@
     redux-form "^8.1.0"
     snakecase-keys "^3.1.2"
 
-"@drieam/common@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.1.1-next.15.tgz#4f131f7e0af427d9d88e14d9f5b1a912760fb611"
-  integrity sha512-OivQRVZ0JDxYDs1DU/1lLA7kOQwbyY+dGMr3V76OdOqHxdE0+aficdK7SKjowrJgcqDTKDM1McZsaDiDIz16Hw==
+"@drieam/common@6.12.3":
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/@drieam/common/-/common-6.12.3.tgz#de65249428f6b1b9b09de01d837dce66f3ad2fd3"
+  integrity sha512-TFTFzx9Rmt/RHcf7CxRi288LAbIoXINNkOpIJFtNtlCj6fBLkxy6rUvYDrkcws1mHP/q/c+Y667JLPdY6Q9jlg==
   dependencies:
     "@types/classnames" "^2.2.9"
     "@types/store" "^2.0.2"
