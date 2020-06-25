@@ -41,11 +41,6 @@
     insert-css "^2.0.0"
     rc-util "^4.9.0"
 
-"@ant-design/icons@~2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.1.tgz#7b9c08dffd4f5d41db667d9dbe5e0107d0bd9a4a"
-  integrity sha512-jCH+k2Vjlno4YWl6g535nHR09PwCEmTBKAG6VqF+rhkrSPRLfgpU2maagwbZPLjaHuU5Jd1DFQ2KJpQuI6uG8w==
-
 "@ant-design/react-slick@~0.25.5":
   version "0.25.5"
   resolved "https://registry.yarnpkg.com/@ant-design/react-slick/-/react-slick-0.25.5.tgz#18f40abaa22c15dc26da9c473d24da38d4d8f334"
@@ -910,6 +905,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.10.0":
+  version "7.10.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.3.tgz#670d002655a7c366540c67f6fd3342cd09500364"
+  integrity sha512-RzGO0RLSdokm9Ipe/YD+7ww8X2Ro79qiXZF3HU9ljrM+qnJmH1Vqth+hbiQZy761LnMJTMitHDuKVYTk3k4dLw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.4", "@babel/runtime@^7.8.4":
   version "7.8.7"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.7.tgz#8fefce9802db54881ba59f90bb28719b4996324d"
@@ -1014,13 +1016,19 @@
     resize-observer-polyfill "~1.5.1"
     store "^2.0.12"
 
-"@drieam/ui@6.1.1-next.15":
-  version "6.1.1-next.15"
-  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.1.1-next.15.tgz#1311977469a5fcec5981ca70209fc454f15422e0"
-  integrity sha512-DCKEreNl5Kp7r/QpROrJKxAVx2CswAtfE5oEU5oLMGZ0OnpEEInXDv+Cz7N2p/oxi9op86rzgvA+C9aiXRnPAg==
+"@drieam/ui@6.13.1":
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/@drieam/ui/-/ui-6.13.1.tgz#e3c39bf19bd2ee6b507d6f081182cb5515dca0db"
+  integrity sha512-f8jwYbrM7uSBelYmnyTHw52Y9jX1tVm/0ITkNHY5lxABnh+kNEYVQm5ohR/FjSrf3SobUeSDL9ghtCF1xl5DwQ==
   dependencies:
-    "@ant-design/icons" "~2.1.1"
+    "@types/classnames" "^2.2.9"
+    "@types/store" "^2.0.2"
+    classnames "2.2.6"
+    react-final-form "^6.3.0"
     react-icons "^3.7.0"
+    react-infinite-scroller "^1.2.4"
+    resize-observer-polyfill "~1.5.1"
+    store "^2.0.12"
 
 "@geut/chan-core@^2.2.0":
   version "2.2.0"
@@ -1401,6 +1409,11 @@
   integrity sha512-O75k56TYvJ8WpAakWwYRN8Bgu60KrmX0z1KqFp1kNiFNkgW+JW+9EBKZ+S33PU6SLvbihqd+3drvPxKK68Ee8Q==
   dependencies:
     "@types/node" ">= 8"
+
+"@scarf/scarf@^1.0.5":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.0.6.tgz#52011dfb19187b53b75b7b6eac20da0810ddd88f"
+  integrity sha512-y4+DuXrAd1W5UIY3zTcsosi/1GyYT8k5jGnZ/wG7UUHVrU+MHlH4Mp87KK2/lvMW4+H7HVcdB+aJhqywgXksjA==
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.2"
@@ -9985,6 +9998,15 @@ react-error-overlay@^6.0.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.6.tgz#ac4d9dc4c1b5c536c2c312bf66aa2b09bfa384e2"
   integrity sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
 
+react-final-form@^6.3.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.5.0.tgz#b0440acf534fd57991c048764ab20af13124aed6"
+  integrity sha512-H97PLCtfMIN32NHqm85E738Pj+NOF1p0eQEG+h5DbdaofwtqDRp7taHu45+PlXOqg9ANbM6MyXkYxWpIiE6qbQ==
+  dependencies:
+    "@babel/runtime" "^7.10.0"
+    "@scarf/scarf" "^1.0.5"
+    ts-essentials "^6.0.5"
+
 react-icons@^3.7.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.9.0.tgz#89a00f20a0e02e6bfd899977eaf46eb4624239d5"
@@ -11735,6 +11757,11 @@ trough@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
+
+ts-essentials@^6.0.5:
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-6.0.7.tgz#5f4880911b7581a873783740ce8b94da163d18a6"
+  integrity sha512-2E4HIIj4tQJlIHuATRHayv0EfMGK3ris/GRk1E3CFnsZzeNV+hUmelbaTZHLtXaZppM5oLhHRtO04gINC4Jusw==
 
 ts-pnp@1.1.5, ts-pnp@^1.1.2:
   version "1.1.5"
